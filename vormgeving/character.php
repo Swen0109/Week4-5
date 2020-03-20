@@ -42,6 +42,6 @@
         <div style="clear: both"></div>
     </div>
 </div>
-<footer>&copy; [jenaam] 2020</footer>
+<footer>&copy; [Swen Sperling] 2020</footer>
 </body>
 </html>
