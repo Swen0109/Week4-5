@@ -1,4 +1,10 @@
 <?php
+
+require("Function.php");
+$result = AllCharacters();
+$count = CountCharacters();
+$hero = getCharacter(1); 
+
 $id=$_GET['id'];
 
 $servername="localhost";
@@ -17,7 +23,7 @@ catch (PDOException $e){
 $query = $conn->prepare("SELECT * FROM characters WHERE id='$id'");
 $query->execute();
 $result = $query->fetchall();
-
+ 
 ?>
 
 <?php require 'header.php'?>
