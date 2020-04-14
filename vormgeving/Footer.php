@@ -1,0 +1,1 @@
+<footer>&copy; [Swen Sperling] 2020</footer>
